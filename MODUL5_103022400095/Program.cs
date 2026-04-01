@@ -1,2 +1,20 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("MODUL 5 KONSTRUKSI PERANGKAT LUNAK");
+using MODUL5_103022400095;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+
+        Console.WriteLine("MODUL 5 KONTRUKSI PERANGKAT LUNAK");
+
+        SimpleDataBase<int> db = new SimpleDataBase<int>();
+        db.AddData(12);
+        db.AddData(34);
+        db.AddData(56);
+        db.printData();
+
+    }
+
+
+}
